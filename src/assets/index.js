@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo1.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -30,6 +30,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import githubSocial from "./Social/github.png";
+import linkedin from "./Social/linkedin.png";
+import instagram from "./Social/instagram.png";
+import medium from "./Social/medium.png";
+
 export {
   logo,
   backend,
@@ -59,4 +64,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  githubSocial,
+  linkedin,
+  instagram,
+  medium,
 };

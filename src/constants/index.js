@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  githubSocial,
+  linkedin,
+  instagram,
+  medium,
 } from "../assets";
 
 export const navLinks = [
@@ -31,8 +35,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "works",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -73,20 +77,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "Node JS",
@@ -97,20 +89,31 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
+];
+
+const social = [
   {
-    name: "figma",
-    icon: figma,
+    name: "Github",
+    icon: githubSocial,
+    link: "https://github.com/Komuthu-Fernando"
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Linkedin",
+    icon: linkedin,
+    link: "https://www.linkedin.com/in/komuthu-fernando/"
+  },
+  {
+    name: "Instagram",
+    icon: instagram,
+    link: "https://www.instagram.com/koma.__/"
+  },
+  {
+    name: "Medium",
+    icon: medium,
+    link: "https://medium.com/@komuthuapsara"
   },
 ];
 
@@ -198,63 +201,83 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Freshlyy",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Second year software project: A platform connecting farmers directly with nearby customers for selling fresh produce. Includes a mobile app and web app.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "react-native",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nordjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Ascendants",
   },
   {
-    name: "Job IT",
+    name: "Priority System for Emergency Vehicles",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "First year hardware project: An embedded systems project focusing on prioritizing emergency vehicles at traffic junctions.",
     tags: [
       {
-        name: "react",
+        name: "Atmel Studio",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Proteus",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "KiCad",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Blender",
+        color: "blue-text-gradient",
       },
     ],
     image: jobit,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Personal Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Welcome to my personal website! I'm excited to share my portfolio project journey with you. ",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "threejs",
         color: "pink-text-gradient",
+      },
+      {
+        name: "emailjs",
+        color: "blue-text-gradient",
       },
     ],
     image: tripguide,
@@ -262,4 +285,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, social };

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Robo AP-X1
+* source:	https://sketchfab.com/3d-models/robo-ap-x1-6ef778b5c07f4b29b1d4fa1cf391e86f
+* author:	Jo Kawaguchi (https://sketchfab.com/jobog)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Robo AP-X1" (https://sketchfab.com/3d-models/robo-ap-x1-6ef778b5c07f4b29b1d4fa1cf391e86f) by Jo Kawaguchi (https://sketchfab.com/jobog) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

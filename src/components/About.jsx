@@ -7,6 +7,8 @@ import { services } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { fadeIn, textVariant } from '../utils/motion';
 
+import { social } from '../constants';
+
 const ServiceCard = ({ index, title, icon }) => (
 	<Tilt className="xs:w-[250px] w-full">
 		<motion.div
@@ -47,13 +49,31 @@ const About = () => {
 				variants={fadeIn('', '', 0.1, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
 			>
-				I'm a skilled software developer with experience in TypeScript and
-				JavaScript, and expertise in frameworks like React, Node.js, and
-				Three.js. I'm a quick learner and collaborate closely with clients to
-				create efficient, scalable, and user-friendly solutions that solve
-				real-world problems. Let's work together to bring your ideas to life!
+				A cheerful and hard-working individual with a passion for technology and
+				a knack for problem-solving. Embracing challenges with a positive
+				mindset, I bring a unique perspective and a love for continuous
+				learning. Determined, ambitious, and driven to make a meaningful impact
+				in the world of technology, I thrive in dynamic environments and am
+				ready to take on new opportunities.
 			</motion.p>
-
+			<motion.p
+				variants={fadeIn('', '', 0.1, 1)}
+				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+			>
+				<div className="flex flex-row flex-wrap gap-7 mt-4">
+					{social.map((social) => (
+						<div className="w-6 h-6" key={social.name}>
+							<a href={social.link} target="_blank" rel="noopener noreferrer">
+								<img
+									src={social.icon}
+									alt={social.name}
+									className="transition-transform transform hover:scale-110"
+								/>
+							</a>
+						</div>
+					))}
+				</div>
+			</motion.p>
 			<div className="mt-20 flex flex-wrap gap-10">
 				{services.map((service, index) => (
 					<ServiceCard key={service.title} index={index} {...service} />
