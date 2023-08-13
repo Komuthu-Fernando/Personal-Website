@@ -21,6 +21,7 @@ import {
   shopify,
   carrent,
   jobit,
+  travel,
   tripguide,
   threejs,
   githubSocial,
@@ -256,7 +257,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Komuthu-Fernando",
   },
   {
     name: "Personal Website",
@@ -281,7 +282,28 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Komuthu-Fernando/Personal-Website",
+  },
+  {
+    name: "Travel Buddy",
+    description:
+      "A web application for a traveling company with singin / signup options.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: travel,
+    source_code_link: "https://github.com/Komuthu-Fernando/Travel-Buddy",
   },
 ];
 

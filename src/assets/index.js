@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import travel from "./travel.png";
 
 import githubSocial from "./Social/github.png";
 import linkedin from "./Social/linkedin.png";
@@ -63,6 +64,7 @@ export {
   tesla,
   carrent,
   jobit,
+  travel,
   tripguide,
   githubSocial,
   linkedin,

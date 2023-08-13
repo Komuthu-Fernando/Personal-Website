@@ -36,16 +36,16 @@
 }
 
 .black-gradient {
-  background: #000000; /* fallback for old browsers */
+  background: #051612; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #434343,
-    #000000
+    #0b3333,
+    #051612
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #434343,
-    #000000
+    #0b3333,
+    #051612
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
