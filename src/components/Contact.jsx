@@ -51,16 +51,19 @@ const Contact = () => {
 		}, 2000);
 		emailjs
 			.send(
-				import.meta.env.REACT_APP_EMAILJS_SERVICE_ID,
-				import.meta.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+				// import.meta.env.REACT_APP_EMAILJS_SERVER_KEY,
+				// import.meta.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+				'service_gjqte7f',
+				'template_rzjsyqw',
 				{
-					from_name: form.name,
+					from_name: values.name,
 					to_name: 'Komuthu Fernando',
-					from_email: form.email,
+					from_email: values.email,
 					to_email: 'komuthuapsara@gmailcom',
-					message: form.message,
+					message: values.message,
 				},
-				import.meta.env.REACT_APP_EMAILJS_SERVER_KEY
+				'XFuqZjX17LV37_z7p'
+				// import.meta.env.REACT_APP_EMAILJS_PUBLIC_KEY
 			)
 			.then(
 				() => {
@@ -79,6 +82,8 @@ const Contact = () => {
 				}
 			);
 	};
+
+	console.log(import.meta.env.REACT_APP_EMAILJS_SERVER_KEY);
 
 	return (
 		<div
